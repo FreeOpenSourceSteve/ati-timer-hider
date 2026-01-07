@@ -1,13 +1,21 @@
 {
   "manifest_version": 3,
   "name": "ATI Time Hider",
-  "version": "1.0",
-  "description": "Hides the .timespentlbl element on lms.atitesting.com",
+  "version": "1.1",
+  "description": "Hides the .timespentlbl element on lms.atitesting.com with a toggle.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ATI Timer Settings"
+  },
   "content_scripts": [
     {
       "matches": ["https://lms.atitesting.com/*"],
       "css": ["styles.css"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "run_at": "document_start"
     }
   ]
 }

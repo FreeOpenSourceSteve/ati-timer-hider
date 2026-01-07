@@ -1,4 +1,5 @@
-.timespentlbl {
+/* Only hide the element if the body has the 'hide-ati-timer' class */
+body.hide-ati-timer .timespentlbl {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
