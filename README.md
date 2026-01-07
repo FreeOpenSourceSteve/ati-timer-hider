@@ -20,7 +20,7 @@ The extension targets the .timespentlbl class using the following CSS:
 ### Installation Instructions
 Since this extension is custom-built, you must "sideload" it into your browser:
 
-1. Download/Clone this repository to a folder on your computer
+1. Download/Clone this repository to a folder on your computer (Click "**Code**" and then "**Download Zip**")
 2. Open Google Chrome and navigate to chrome://extensions/
 3. Enable Developer mode using the toggle in the top-right corner
 4. Click the Load unpacked button
