@@ -1,0 +1,1 @@
+console.log("ATI Time Hider extension is active.");

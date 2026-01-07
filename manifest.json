@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ATI Time Hider",
+  "version": "1.0",
+  "description": "Hides the .timespentlbl element on lms.atitesting.com",
+  "content_scripts": [
+    {
+      "matches": ["https://lms.atitesting.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
