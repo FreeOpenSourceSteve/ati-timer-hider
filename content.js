@@ -1,10 +1,13 @@
 // Function to update visibility based on state
 function updateVisibility(isHidden) {
+    // Use documentElement (<html> tag) because document.body is often null at document_start
+    const target = document.documentElement;
+
     if (isHidden) {
-        document.body.classList.add('hide-ati-timer');
+        target.classList.add('hide-ati-timer');
         console.log("ATI Time Hider: Timer hidden");
     } else {
-        document.body.classList.remove('hide-ati-timer');
+        target.classList.remove('hide-ati-timer');
         console.log("ATI Time Hider: Timer visible");
     }
 }
