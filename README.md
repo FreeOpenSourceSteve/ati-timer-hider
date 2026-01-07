@@ -20,12 +20,12 @@ The extension targets the .timespentlbl class using the following CSS:
 ### Installation Instructions
 Since this extension is custom-built, you must "sideload" it into your browser:
 
-1. Download/Clone this repository to a folder on your computer.
-2. Open Google Chrome and navigate to chrome://extensions/.
-3. Enable Developer mode using the toggle in the top-right corner.
-4. Click the Load unpacked button.
-5. Select the folder containing your extension files.
-6. Navigate to ATI and the timer will now be hidden.
+1. Download/Clone this repository to a folder on your computer
+2. Open Google Chrome and navigate to chrome://extensions/
+3. Enable Developer mode using the toggle in the top-right corner
+4. Click the Load unpacked button
+5. Select the folder (*ati-timer-hider*) containing your extension files
+6. Navigate to ATI and the timer will now be hidden
 
 ### Chrome Extension Store Status
 I will get this added to the chrome store. I want to add a simple popup that toggles visibility first. If you have other features you want let me know. 
