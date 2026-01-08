@@ -24,7 +24,7 @@ Since this extension is custom-built, you must "sideload" it into your browser:
 2. Open Google Chrome and navigate to chrome://extensions/
 3. Enable Developer mode using the toggle in the top-right corner
 4. Click the Load unpacked button
-5. Select the folder (*ati-timer-hider*) containing your extension files (**Must unzip**)
+5. Select the folder (*ati-timer-hider-main*) containing your extension files (**Must unzip**)
 6. Navigate to ATI and the timer will now be hidden
 
 ### Chrome Extension Store Status
